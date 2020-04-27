@@ -2,16 +2,14 @@
 
 Based on MIT - [COVID-19 Safe Paths](http://safepaths.mit.edu/)
 
-Intro: https://bit.ly/spaced-intro
-Demo: https://bit.ly/spaced-demo
 
 ----
 
 <img align="right" width="300" src="./assets/PreviewUI.png" data-canonical-src="./assets/PreviewUI.png"/>
 
-Spaced is a mobile app for empowering people to stop the spread of COVID-19 by being able to see how populated public spaces are in order to safely meet basic needs that require travel.
+Live is a mobile app for empowering people to stop the spread of COVID-19 by being able to see how populated public spaces are in order to safely meet basic needs that require travel.
 
-**Home page:** https://getspaced.io
+
 
 # Development Overview
 
