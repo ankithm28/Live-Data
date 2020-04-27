@@ -3,14 +3,14 @@ import { StyleSheet, View, Text } from 'react-native';
 
 import colors from '../constants/colors';
 
-const LOGO_TEXT = 'SPACED';
+const LOGO_TEXT = 'Live';
 class Logo extends Component {
   constructor(props) {
     super(props);
   }
 
   renderCharacter(index) {
-    const opacity = (12 - index) / 12;
+    const opacity = (10 - index) / 10;
     const marginRight = 1 * Math.pow(2, index);
     console.log(index, opacity);
 

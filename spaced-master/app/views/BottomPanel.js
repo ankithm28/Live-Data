@@ -206,7 +206,7 @@ const BottomPanel = ({
               color: '#2E4874',
             }}>
             {isLogging
-              ? 'Your location data is being logged and shared'
+              ? 'Your anonymized location data is being logged'
               : 'Enable location logging in order to use the map'}
           </Text>
           {renderLocationEnabledOptions()}

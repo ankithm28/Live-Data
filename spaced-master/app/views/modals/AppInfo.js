@@ -34,25 +34,19 @@ const AppInfo = ({ modal, setModal }) => {
         <Text>Spaced - {version}</Text>
         <TouchableOpacity
           style={{ marginTop: 10 }}
-          onPress={() =>
-            handleLinkPress('https://www.iubenda.com/privacy-policy/15725052')
-          }>
+          onPress={() => handleLinkPress('')}>
           <Text>View Privacy Policy</Text>
         </TouchableOpacity>
         <TouchableOpacity
           style={{ marginTop: 10, marginBottom: 10 }}
-          onPress={() =>
-            handleLinkPress(
-              'https://github.com/p0x6/spaced/blob/develop/LICENSE',
-            )
-          }>
+          onPress={() => handleLinkPress('')}>
           <Text>View License</Text>
         </TouchableOpacity>
         <Button
           onPress={() =>
-            Linking.openURL('mailto:bobby@yanglabs.co?subject=Spaced')
+            Linking.openURL('mailto:shapefitgame@gmail.com?subject=Spaced')
           }
-          title=' Email Me: bobby@yanglabs.co'
+          title=' Email Me: shapefitgame@gmail.com'
         />
       </View>
     </Modal>
