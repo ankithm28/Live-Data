@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.yangllc.spaced"
+        applicationId "com.monkeyank.livedata"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         multiDexEnabled true

@@ -1,4 +1,4 @@
-package com.yangllc.spaced;
+package com.monkeyank.liveData;
 
 import android.os.Bundle;
 import org.devio.rn.splashscreen.SplashScreen;
