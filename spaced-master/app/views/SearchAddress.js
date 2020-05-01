@@ -179,6 +179,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     fontFamily: 'DMSans-Regular',
     fontWeight: '500',
+    color: '#435d8b',
   },
   // App Icon
   infoContainer: {
