@@ -666,8 +666,10 @@
 				DEVELOPMENT_TEAM = 3U3SNC9LRZ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/GoogleMaps-3.8.0/Base/Frameworks",
-					"$(PROJECT_DIR)/GoogleMaps-3.8.0/Maps/Frameworks",
+					"\"${PODS_ROOT}/@react-native-mapbox-gl-mapbox-static/dynamic\"",
+					"\"${PODS_ROOT}/AppCenter/AppCenter-SDK-Apple/iOS\"",
+					"\"${PODS_ROOT}/AppCenterReactNativeShared/AppCenterReactNativeShared\"",
+					"\"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic\"",
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = LiveData/Info.plist;
