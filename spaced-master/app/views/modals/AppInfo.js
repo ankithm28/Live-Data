@@ -31,7 +31,7 @@ const AppInfo = ({ modal, setModal }) => {
         <Text style={{ fontSize: 16, color: colors.BLACK }}>App Info</Text>
       </View>
       <View>
-        <Text>Spaced - {version}</Text>
+        <Text>Live-Data - {version}</Text>
         <TouchableOpacity
           style={{ marginTop: 10 }}
           onPress={() => handleLinkPress('')}>

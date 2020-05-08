@@ -361,11 +361,11 @@
 				TargetAttributes = {
 					00E356ED1AD99517003FC87E = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = 3U3SNC9LRZ;
+						DevelopmentTeam = 63QM8F2SFJ;
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 3U3SNC9LRZ;
+						DevelopmentTeam = 63QM8F2SFJ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -612,7 +612,7 @@
 			baseConfigurationReference = C5CAF9029B3AE69C411463F3 /* Pods-LiveDataTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = 3U3SNC9LRZ;
+				DEVELOPMENT_TEAM = 63QM8F2SFJ;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -638,7 +638,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = 3U3SNC9LRZ;
+				DEVELOPMENT_TEAM = 63QM8F2SFJ;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = LiveDataTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
@@ -663,7 +663,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 3U3SNC9LRZ;
+				DEVELOPMENT_TEAM = 63QM8F2SFJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/@react-native-mapbox-gl-mapbox-static/dynamic\"",
@@ -696,7 +696,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 5;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 3U3SNC9LRZ;
+				DEVELOPMENT_TEAM = 63QM8F2SFJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GoogleMaps-3.8.0/Base/Frameworks",
