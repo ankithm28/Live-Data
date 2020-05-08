@@ -243,7 +243,7 @@ export default class BroadcastingServices {
     setTimeout(
       () =>
         Alert.alert(
-          'Spaced requires bluetooth to be enabled',
+          'Live-Data requires bluetooth to be enabled',
           'Would you like to enable Bluetooth?',
           [
             {

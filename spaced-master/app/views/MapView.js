@@ -119,7 +119,7 @@ const MapViewComponent = ({
           cluster
           clusterRadius={50}
           clusterMaxZoom={14}
-          // url='https://spaced-app.s3.us-east-2.amazonaws.com/test3.geojson'
+          //url='https://spaced-app.s3.us-east-2.amazonaws.com/test3.geojson'
           shape={userMarkers || defaultGeoJSON}>
           <MapboxGL.SymbolLayer
             id='pointCount'
