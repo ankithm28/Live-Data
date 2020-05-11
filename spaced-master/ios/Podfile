@@ -31,7 +31,11 @@ target 'LiveData' do
   pod 'React-jsi', :path => '../node_modules/react-native/ReactCommon/jsi'
   pod 'React-jsiexecutor', :path => '../node_modules/react-native/ReactCommon/jsiexecutor'
   pod 'React-jsinspector', :path => '../node_modules/react-native/ReactCommon/jsinspector'
+<<<<<<< HEAD
   pod 'ReactCommon/callinvoker', :path => "../node_modules/react-native/ReactCommon"
+=======
+  pod 'ReactCommon/jscallinvoker', :path => "../node_modules/react-native/ReactCommon"
+>>>>>>> e3c6a281201d6afc67f2775de347ccae1fcbb28e
   pod 'ReactCommon/turbomodule/core', :path => "../node_modules/react-native/ReactCommon"
   pod 'Yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
 
