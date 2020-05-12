@@ -116,6 +116,3 @@ jobs:
 #      run: ./gradlew build
 #      working-directory: ./android
 
-#    - name: iOS Build
-#      run: xcodebuild -workspace Spaced.xcworkspace -configuration Release -scheme Spaced
-

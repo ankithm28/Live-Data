@@ -1,4 +1,4 @@
-package com.monkeyank.liveData;
+package com.monkeyank.livedata;
 
 import android.os.Bundle;
 import org.devio.rn.splashscreen.SplashScreen;

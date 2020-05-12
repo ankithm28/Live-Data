@@ -44,7 +44,7 @@ const AppInfo = ({ modal, setModal }) => {
         </TouchableOpacity>
         <Button
           onPress={() =>
-            Linking.openURL('mailto:shapefitgame@gmail.com?subject=Spaced')
+            Linking.openURL('mailto:shapefitgame@gmail.com?subject=LiveData')
           }
           title=' Email Me: shapefitgame@gmail.com'
         />
