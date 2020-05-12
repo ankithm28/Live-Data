@@ -51,10 +51,6 @@ or
 npx react-native run-ios --simulator="iPhone 8 Plus"
 ```
 
-NOTE: In some cases, the abovementioned procedure leads to the error 'Failed to load bundle - Could not connect to development server'. In these cases, kill all other react-native processes and try it again.
-
-## Contributing
-
-Read the [contribution guidelines](CONTRIBUTING.md).
+NOTE: In some cases, the mentioned procedure leads to the error 'Failed to load bundle - Could not connect to development server'. First try reloading with r or command R. Otherwise, kill all other react-native processes and try it again.
 
 
