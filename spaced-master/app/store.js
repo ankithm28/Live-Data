@@ -6,7 +6,7 @@ import reducers from './reducers/reducer';
 import middleware from './reducers/middleware';
 
 const persistConfig = {
-  key: 'Live-Data',
+  key: 'RouteSafe',
   storage: AsyncStorage,
   whitelist: ['blacklistLocations', 'blacklistOnboardingStatus'],
   blacklist: ['isLogging'],

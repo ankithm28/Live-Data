@@ -272,9 +272,9 @@ export default class LocationServices {
       desiredAccuracy: BackgroundGeolocation.HIGH_ACCURACY,
       stationaryRadius: 5,
       distanceFilter: 5,
-      notificationTitle: 'Live-Data Enabled',
+      notificationTitle: 'RouteSafe Enabled',
       notificationText:
-        'Live-Data is securely storing your GPS coordinates once every five minutes on this device.',
+        'RouteSafe securely stores your GPS coordinates once every five minutes on this device.',
       debug: false, // when true, it beeps every time a loc is read
       startOnBoot: true,
       stopOnTerminate: false,
@@ -363,7 +363,7 @@ export default class LocationServices {
         setTimeout(
           () =>
             Alert.alert(
-              'Live-Data requires access to location information',
+              'RouteSafe requires access to location information',
               'Would you like to open app settings?',
               [
                 {
@@ -410,7 +410,7 @@ export default class LocationServices {
     BackgroundGeolocation.on('stop', () => {
       PushNotification.localNotification({
         title: 'Location Tracking Was Disabled',
-        message: 'Live-Data requires location services.',
+        message: 'RouteSafe requires location services.',
       });
       console.log('[INFO] stop');
     });
@@ -439,7 +439,7 @@ export default class LocationServices {
         setTimeout(
           () =>
             Alert.alert(
-              'Live-Data requires location services to be enabled',
+              'RouteSafe requires location services to be enabled',
               'Would you like to open location settings?',
               [
                 {
@@ -467,7 +467,7 @@ export default class LocationServices {
         setTimeout(
           () =>
             Alert.alert(
-              'Live-Data requires access to location information',
+              'RouteSafe requires access to location information',
               'Would you like to open app settings?',
               [
                 {
@@ -496,7 +496,7 @@ export default class LocationServices {
     // unregister all event listeners
     PushNotification.localNotification({
       title: 'Location Tracking Was Disabled',
-      message: 'Live-Data requires location services.',
+      message: 'RouteSafe requires location services.',
     });
     BackgroundGeolocation.removeAllListeners();
     BackgroundGeolocation.stop();

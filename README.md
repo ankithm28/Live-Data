@@ -1,36 +1,17 @@
 
 
-Based on MIT - [COVID-19 Safe Paths](http://safepaths.mit.edu/)
+Uses MIT - [COVID-19 Safe Paths](http://safepaths.mit.edu/)
 
 
-----
-
-<img align="right" width="300" src="./assets/PreviewUI.png" data-canonical-src="./assets/PreviewUI.png"/>
-
-Live is a mobile app for empowering people to stop the spread of COVID-19 by being able to see how populated public spaces are in order to safely meet basic needs that require travel.
-
-
-
-# Development Overview
-
-This is a React Native app version 61.5
-
-## Architecture
-
-Please refer to `docs/Private Kit Diagram.png` for a basic overview on the sequencing of generalized events and services that are utilized by Private Kit.
-
-## Developer Setup
-
-Refer to and run the dev_setup.sh (Linux/MacOS) or dev_setup.bat (Windows) for needed tools.
+RouteSafe is a mobile app that allows people people to see how populated public spaces are in order to safely meet basic needs that require travel.
 
 ### iOS Configuration - First Time Setup
 
-1. Move to `ios` directory and run `pod install`
-2. If you have any trouble with packages not round, try `react-native link` from project directory.
-3. Look at running commands below.
+1. Cd into the `ios` directory and run `pod install`
+2. If some packages are giving you trouble please run `react-native link` from the project directory.
 
 ### MapBox API Key
-You will need to generate a Mapbox key in order for the mapping features to work correctly. Visit mapbox [mapbox](https://www.mapbox.com/) in order to create the API key.
+You need a mapbox key in order for the mapping features to work correctly. Visit mapbox [mapbox](https://www.mapbox.com/) to create an api key.
 
 Once you have the API key, you will need to create a .env file that looks like the following:
 ```
@@ -40,17 +21,15 @@ MAPBOX_ACCESS_TOKEN={ACCESS_TOKEN_HERE}
 ## Running
 
 Install modules:
-```npm install``` or ```yarn install``` (note ```yarn``` does a better job at installing dependencies on macOS)
+```npm install``` or ```yarn install```
 
-To run, do:
+To run:
 ```
 npx react-native run-android
 ```
 or
 ```
-npx react-native run-ios --simulator="iPhone 8 Plus"
+npx react-native run-ios
 ```
-
-NOTE: In some cases, the mentioned procedure leads to the error 'Failed to load bundle - Could not connect to development server'. First try reloading with r or command R. Otherwise, kill all other react-native processes and try it again.
 
 

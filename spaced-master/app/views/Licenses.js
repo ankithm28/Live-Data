@@ -73,7 +73,7 @@ class LicensesScreen extends Component {
         </View>
 
         <View style={styles.main}>
-          <Text style={styles.headerTitle}>Live-Data</Text>
+          <Text style={styles.headerTitle}>RouteSafe</Text>
 
           <View style={styles.row}>
             <Text style={styles.valueName}>Version: </Text>

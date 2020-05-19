@@ -68,7 +68,7 @@ function ExportScreen({ shareButtonDisabled }) {
       var jsonData = JSON.stringify(locationData);
       const title = 'PrivateKit.json';
       const filename = unixtimeUTC + '.json';
-      const message = 'Here is my location log from Live-Data';
+      const message = 'Here is my location log from RouteSafe';
       if (Platform.OS === 'ios') {
         var url = RNFS.MainBundlePath + '/' + filename;
         await RNFS.writeFile(url, jsonData, 'utf8')

@@ -129,7 +129,7 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.monkeyank.livedata"
+        applicationId "com.beroundup.routesafe"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         multiDexEnabled true
