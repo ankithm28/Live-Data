@@ -245,11 +245,11 @@ const BlacklistPlacesPanel = ({
     if (keyboardShowing) return null;
     switch (searchType) {
       case 'Home':
-        return 'RouteSafe NEVER shares your blacklisted locations.\n\nYou can blacklist your home location so that others will not be able to see you within a big radius of your home.\n\nData inside the radius will NEVER leave your phone.';
+        return 'RouteSafe NEVER shares your blacklisted locations.\n\nYou can blacklist your home location so that your location is not reported within a large radius of your home.\n\nData inside the radius will NEVER leave your phone.';
       case 'Work':
-        return 'You can also blacklist your work location as well so you will not be tracked at work';
+        return 'You can also blacklist your work location so your location is not reported.';
       default:
-        return "RouteSafe NEVER shares your blacklisted locations.\n\nYou can blacklist a location like home or office, so that others don't see your location.\n\nData inside the radius will NEVER leave your phone.";
+        return 'RouteSafe NEVER shares your blacklisted locations.\n\nRouteSafe allows you to blacklist a location like home or office, so your location is not reported.\n\nData inside the radius will NEVER leave your phone.';
     }
   };
 

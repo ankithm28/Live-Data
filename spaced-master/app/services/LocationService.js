@@ -274,7 +274,7 @@ export default class LocationServices {
       distanceFilter: 5,
       notificationTitle: 'RouteSafe Enabled',
       notificationText:
-        'RouteSafe is securely storing your GPS coordinates once every five minutes on this device.',
+        'RouteSafe securely stores your GPS coordinates once every five minutes on this device.',
       debug: false, // when true, it beeps every time a loc is read
       startOnBoot: true,
       stopOnTerminate: false,
