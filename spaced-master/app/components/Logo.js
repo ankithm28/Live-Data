@@ -3,7 +3,7 @@ import { StyleSheet, View, Text } from 'react-native';
 
 import colors from '../constants/colors';
 
-const LOGO_TEXT = 'Live';
+const LOGO_TEXT = 'RouteSafe';
 class Logo extends Component {
   constructor(props) {
     super(props);

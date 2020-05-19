@@ -1,18 +1,21 @@
-package com.monkeyank.livedata;
+package com.beroundup.routesafe;
 
 import android.app.Application;
 import android.content.Context;
+import android.os.Bundle;
+
 import com.facebook.react.PackageList;
+import com.facebook.react.ReactActivity;
 import com.facebook.react.ReactApplication;
-import org.devio.rn.splashscreen.SplashScreenReactPackage;
-import com.lugg.ReactNativeConfig.ReactNativeConfigPackage;
-import com.reactnativecommunity.webview.RNCWebViewPackage;
+
+import org.devio.rn.splashscreen.SplashScreen;
+
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
 import java.util.List;
-import com.mapbox.rctmgl.RCTMGLPackage;
+
 import com.microsoft.codepush.react.CodePush;
 
 public class MainApplication extends Application implements ReactApplication {
@@ -87,4 +90,20 @@ public class MainApplication extends Application implements ReactApplication {
       }
     }
   }
+
+    public static class MainActivity extends ReactActivity {
+        @Override
+        protected void onCreate(Bundle savedInstanceState) {
+            SplashScreen.show(this, R.style.SplashScreenTheme);
+            super.onCreate(savedInstanceState);
+        }
+      /**
+       * Returns the name of the main component registered from JavaScript. This is used to schedule
+       * rendering of the component.
+       */
+      @Override
+      protected String getMainComponentName() {
+        return "RouteSafe";
+      }
+    }
 }

@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'LiveData' do
-  # Pods for LiveData
+target 'RouteSafe' do
+  # Pods for RouteSafe
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -55,7 +55,7 @@ target 'LiveData' do
 
   pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
 
-  target 'LiveDataTests' do
+  target 'RouteSafeTests' do
     inherit! :search_paths
     # Pods for testing
   end

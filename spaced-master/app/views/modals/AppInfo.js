@@ -31,7 +31,7 @@ const AppInfo = ({ modal, setModal }) => {
         <Text style={{ fontSize: 16, color: colors.BLACK }}>App Info</Text>
       </View>
       <View>
-        <Text>Live-Data - {version}</Text>
+        <Text>RouteSafe - {version}</Text>
         <TouchableOpacity
           style={{ marginTop: 10 }}
           onPress={() => handleLinkPress('')}>
@@ -44,7 +44,7 @@ const AppInfo = ({ modal, setModal }) => {
         </TouchableOpacity>
         <Button
           onPress={() =>
-            Linking.openURL('mailto:shapefitgame@gmail.com?subject=LiveData')
+            Linking.openURL('mailto:shapefitgame@gmail.com?subject=RouteSafe')
           }
           title=' Email Me: shapefitgame@gmail.com'
         />
