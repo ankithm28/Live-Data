@@ -34,13 +34,12 @@ const AppInfo = ({ modal, setModal }) => {
         <Text>RouteSafe - {version}</Text>
         <TouchableOpacity
           style={{ marginTop: 10 }}
-          onPress={() => handleLinkPress('')}>
+          onPress={() =>
+            handleLinkPress(
+              'https://app.termly.io/document/privacy-policy/aa0a77ae-da44-43db-877c-be70d340f6b3',
+            )
+          }>
           <Text>View Privacy Policy</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={{ marginTop: 10, marginBottom: 10 }}
-          onPress={() => handleLinkPress('')}>
-          <Text>View License</Text>
         </TouchableOpacity>
         <Button
           onPress={() =>
