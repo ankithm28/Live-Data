@@ -31,10 +31,13 @@ jobs:
           yarn install
       - name: Install Pod Dependencies
         run: |
-          cd spaced-mastercd ./ios && pod install && cd ..
+          cd spaced-master
+          cd ./ios && pod install && cd ..
       - name: Detox Build
         run: |
-          cd spaced-masterdetox build --configuration ios.sim.release
+          cd spaced-master
+          detox build --configuration ios.sim.release
       - name: Detox Test
         run: |
-          cd spaced-masterdetox test --configuration ios.sim.release --cleanup
+          cd spaced-master
+          detox test --configuration ios.sim.release --cleanup
