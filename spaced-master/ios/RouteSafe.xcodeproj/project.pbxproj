@@ -113,6 +113,7 @@
 		96D5B219785C4D0690D9E619 /* FrankRuhlLibre-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FrankRuhlLibre-Medium.ttf"; path = "../app/assets/fonts/FrankRuhlLibre-Medium.ttf"; sourceTree = "<group>"; };
 		9B686523B4164257AD651CE2 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../app/assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		9FA39802441F3BE7A66ECEDB /* Pods-RouteSafe-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RouteSafe-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RouteSafe-tvOSTests/Pods-RouteSafe-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		B262CC2D247B355C001B0488 /* RouteSafe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = RouteSafe.entitlements; path = RouteSafe/RouteSafe.entitlements; sourceTree = "<group>"; };
 		B3FC897224B6433697E4D6CD /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../app/assets/fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
 		BEB7CA13AC07404090279B14 /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-BoldItalic.ttf"; path = "../app/assets/fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		C58F417F2435571000FFF01F /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "RouteSafe/AppCenter-Config.plist"; sourceTree = "<group>"; };
@@ -230,6 +231,7 @@
 		13B07FAE1A68108700A75B9A /* RouteSafe */ = {
 			isa = PBXGroup;
 			children = (
+				B262CC2D247B355C001B0488 /* RouteSafe.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -365,7 +367,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						DevelopmentTeam = 63QM8F2SFJ;
+						DevelopmentTeam = D4USBRA5Z6;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -663,11 +665,12 @@
 			baseConfigurationReference = 71D1C872DB0CCC3BBC3D907E /* Pods-RouteSafe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RouteSafe/RouteSafe.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = 63QM8F2SFJ;
+				DEVELOPMENT_TEAM = D4USBRA5Z6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"${PODS_ROOT}/@react-native-mapbox-gl-mapbox-static/dynamic\"",
@@ -678,7 +681,7 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = RouteSafe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -696,11 +699,12 @@
 			baseConfigurationReference = 9440D638E4331481079AE235 /* Pods-RouteSafe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RouteSafe/RouteSafe.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 5;
+				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = 63QM8F2SFJ;
+				DEVELOPMENT_TEAM = D4USBRA5Z6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/GoogleMaps-3.8.0/Base/Frameworks",
@@ -709,7 +713,7 @@
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = RouteSafe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				MARKETING_VERSION = 0.0.1;
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

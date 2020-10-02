@@ -211,7 +211,7 @@ const BottomPanel = ({
           </Text>
           {renderLocationEnabledOptions()}
         </View>
-        <View style={styles.helpDrawer}>
+        {/* <View style={styles.helpDrawer}>
           <View
             style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
             <Text
@@ -298,7 +298,7 @@ const BottomPanel = ({
               </Text>
             </TouchableOpacity>
           </View>
-        </View>
+        </View> */}
       </>
     </SlidingUpPanel>
   );
